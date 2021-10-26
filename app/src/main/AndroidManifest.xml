@@ -29,6 +29,9 @@
             android:name=".activities.Quizzes_Activity"
             android:theme="@style/Theme.Quizzes"
             android:exported="true" />
+        <activity android:name=".activities.ResultadoActivity"
+            android:theme="@style/Theme.Quizzes"
+            android:exported="true"/>
         <activity
             android:name=".activities.EdadCanina_Activity"
             android:theme="@style/Theme.EdadCanina"
@@ -43,6 +46,16 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="true">
             <intent-filter>

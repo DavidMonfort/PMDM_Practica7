@@ -17,4 +17,12 @@
     <string name="btn_calcular">Calculate</string>
     <string name="texto_resultado">If you were a dog, you would be %d years old.</string>
     <string name="msg_toast">You have to insert an age.</string>
+    <string name="textoPregunta">¿What is the value of \'X\' in the equation?</string>
+    <string name="txtAceptar">Accept</string>
+    <string name="txtVolver">Back</string>
+    <string name="txtEndGame">END GAME</string>
+    <string name="txtCorrect">Correct answer</string>
+    <string name="txtIncorrect">Incorrect answer</string>
+    <string name="txtVolverJugar">Play again</string>
+    <string name="txtQuizzes">Loading .. </string>
 </resources>

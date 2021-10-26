@@ -23,5 +23,7 @@
     <color name="violet">#D65AEE</color>
     <color name="violet_dark">#b33ec9</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="fondo_oscuro">#333333</color>
+    <color name="splash_letters">#00e8dc</color>
 
 </resources>

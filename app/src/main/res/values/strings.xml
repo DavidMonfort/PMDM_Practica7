@@ -17,4 +17,12 @@
 
     <string name="texto_resultado">Si fueras perro, tu edad sería %d años</string>
     <string name="msg_toast">No has introducido ningún número.</string>
+    <string name="textoPregunta">¿Cual es el valor de \'X\' en la ecuación?</string>
+    <string name="txtAceptar">Aceptar</string>
+    <string name="txtVolver">Volver</string>
+    <string name="txtEndGame">Juego finalizado en horabuena</string>
+    <string name="txtCorrect">Respuesta correcta</string>
+    <string name="txtIncorrect">Respuesta incorrecta</string>
+    <string name="txtVolverJugar">Volver a jugar</string>
+    <string name="txtQuizzes">Cargando ..</string>
 </resources>
