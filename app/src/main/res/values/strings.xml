@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">6_DashBoard</string>
+    <string name="app_name">PMDM_Practica4</string>
+    <string name="saludo">Bienvenidos a mi APP Calculadora</string>
+    <string name="fisrtNumber">Introduzca el primer número:</string>
+    <string name="secondNumber">Introduzca el segundo número</string>
+    <string name="add">SUMAR</string>
+    <string name="rest">RESTAR</string>
+    <string name="mult">MULTIPLICAR</string>
+    <string name="div">DIVIDIR</string>
+    <string name="resoult">El resultado de la operación es:</string>
+    <string name="divAlert">No se puede dividir por 0</string>
+    <string name="number1Empty">Number 1 empty</string>
+    <string name="numbar2Empty">Number 2 empty</string>
+    <string name="pregunta_ppal">¿Cuántos años tienes?</string>
+    <string name="introdu_edad">Introduce tu edad</string>
+    <string name="btn_calcular">Calcular</string>
+
+    <string name="texto_resultado">Si fueras perro, tu edad sería %d años</string>
+    <string name="msg_toast">No has introducido ningún número.</string>
 </resources>
