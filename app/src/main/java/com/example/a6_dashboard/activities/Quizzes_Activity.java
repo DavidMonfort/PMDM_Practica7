@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.a6_dashboard.R;
+import com.example.a6_dashboard.model.Pregunta;
 
 import java.util.ArrayList;
 

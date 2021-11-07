@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PMDM_Practica4</string>
+    <string name="app_name">PMDM_Practica6</string>
     <string name="saludo">Welcome to the calculator</string>
     <string name="fisrtNumber">Insert the first number:</string>
     <string name="secondNumber">Insert the second number:</string>

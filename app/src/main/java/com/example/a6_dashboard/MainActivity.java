@@ -12,12 +12,13 @@ import com.example.a6_dashboard.activities.Calculadora_Activity;
 import com.example.a6_dashboard.activities.EdadCanina_Activity;
 import com.example.a6_dashboard.activities.Gallery_Activity;
 import com.example.a6_dashboard.activities.Maps_Activity;
+import com.example.a6_dashboard.activities.MusicActivity;
 import com.example.a6_dashboard.activities.Quizzes_Activity;
 import com.example.a6_dashboard.activities.Restaurants_Activity;
 import com.example.a6_dashboard.activities.Settings_Activity;
 
 public class MainActivity extends AppCompatActivity {
-    RelativeLayout rellay_Calculadora, rellay_amigos, rellay_perrete, rellay_quizzes, rellay_galery, rellay_maps, rellay_restaurants, rellay_settings;
+    RelativeLayout rellay_Calculadora, rellay_amigos, rellay_perrete, rellay_quizzes, rellay_galery, rellay_maps, rellay_restaurants, rellay_settings, rellay_music, rellay_blank;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         rellay_maps = findViewById(R.id.rellay_maps);
         rellay_restaurants = findViewById(R.id.rellay_restaurants);
         rellay_settings = findViewById(R.id.rellay_settings);
+        rellay_music = findViewById(R.id.rellay_music);
 
         rellay_Calculadora.setOnClickListener(v -> {
             Intent intent = new Intent(this, Calculadora_Activity.class);
@@ -69,6 +71,11 @@ public class MainActivity extends AppCompatActivity {
         });
         rellay_settings.setOnClickListener(v -> {
             Intent intent = new Intent(this, Settings_Activity.class);
+            startActivity(intent);
+        });
+
+        rellay_music.setOnClickListener(v -> {
+            Intent intent = new Intent(this, MusicActivity.class);
             startActivity(intent);
         });
 

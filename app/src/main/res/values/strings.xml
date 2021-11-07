@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PMDM_Practica4</string>
+    <string name="app_name">PMDM_Practica6</string>
     <string name="saludo">Bienvenidos a mi APP Calculadora</string>
     <string name="fisrtNumber">Introduzca el primer número:</string>
     <string name="secondNumber">Introduzca el segundo número</string>

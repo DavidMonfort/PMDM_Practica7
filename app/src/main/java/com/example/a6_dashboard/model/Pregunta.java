@@ -1,4 +1,4 @@
-package com.example.a6_dashboard.activities;
+package com.example.a6_dashboard.model;
 
 public class Pregunta {
     private String enunciado;
