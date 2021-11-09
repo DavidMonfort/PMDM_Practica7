@@ -25,4 +25,5 @@
     <string name="txtIncorrect">Respuesta incorrecta</string>
     <string name="txtVolverJugar">Volver a jugar</string>
     <string name="txtQuizzes">Cargando ..</string>
+    <string name="txtAlbum">Álbum</string>
 </resources>

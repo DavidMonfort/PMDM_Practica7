@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="240dp"
+    android:layout_height="178dp"
     android:layout_gravity="center">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="170dp"
-        android:layout_height="224dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="373dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="6dp"
         android:background="#252525"
         android:foregroundGravity="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,9 +21,11 @@
             android:id="@+id/imageViewDisco"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:adjustViewBounds="false"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.038"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/dog_meme" />
@@ -32,13 +34,14 @@
             android:id="@+id/textViewTitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
             android:text="TextView"
             android:textColor="#FDFDFD"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/imageViewDisco"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewDisco" />
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewDisco"
+            app:layout_constraintStart_toEndOf="@+id/imageViewDisco"
+            app:layout_constraintTop_toTopOf="@+id/imageViewDisco" />
 
         <TextView
             android:id="@+id/textViewArtista"
