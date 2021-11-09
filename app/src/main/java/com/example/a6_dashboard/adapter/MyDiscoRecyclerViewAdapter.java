@@ -4,11 +4,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.a6_dashboard.DiscoFragment;
 import com.example.a6_dashboard.model.Disco;
 import com.example.a6_dashboard.databinding.FragmentDiscoBinding;
 
@@ -28,7 +31,14 @@ public class MyDiscoRecyclerViewAdapter extends RecyclerView.Adapter<MyDiscoRecy
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        return new ViewHolder(FragmentDiscoBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
+        final ViewHolder holder = new ViewHolder(FragmentDiscoBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(ctx,"Elemento "+mValues.get(holder.getAbsoluteAdapterPosition()).getArtista(), Toast.LENGTH_SHORT).show();
+            }
+        });
+        return holder;
 
     }
 

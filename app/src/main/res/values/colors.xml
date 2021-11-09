@@ -27,5 +27,7 @@
     <color name="splash_letters">#00e8dc</color>
     <color name="orange">#FF8D00</color>
     <color name="orange_dark">#C26503</color>
+    <color name="green_spoty">#1DB954</color>
+    <color name="green_dark_spoty">#168C40</color>
 
 </resources>
