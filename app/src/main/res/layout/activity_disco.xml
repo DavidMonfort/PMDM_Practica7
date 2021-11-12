@@ -14,6 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,20 +24,20 @@
         android:id="@+id/textViewAlbum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#FAFAFA"
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintWidth_max="300dp" />
 
     <TextView
-        android:id="@+id/TextViewArtist"
+        android:id="@+id/textViewArtist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#FAFAFA"
         android:textSize="16sp"
@@ -48,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="8dp"
         android:text="@string/txtAlbum"
         android:textColor="#FAFAFA"
         android:textSize="24sp"
@@ -60,12 +61,12 @@
         android:id="@+id/textViewYearSongs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#A3FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/TextViewArtist"
+        app:layout_constraintStart_toEndOf="@+id/textViewArtist"
         app:layout_constraintTop_toBottomOf="@+id/textViewAlbum" />
 
     <ImageView

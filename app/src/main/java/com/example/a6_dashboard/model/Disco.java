@@ -1,6 +1,8 @@
 package com.example.a6_dashboard.model;
 
-public class Disco {
+import java.io.Serializable;
+
+public class Disco implements Serializable {
 
     private String artista;
     private String titulo;

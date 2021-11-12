@@ -38,13 +38,9 @@ public class MyDiscoRecyclerViewAdapter extends RecyclerView.Adapter<MyDiscoRecy
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(ctx,"Elemento "+mValues.get(holder.getAbsoluteAdapterPosition()).getArtista(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(ctx,"Elemento "+mValues.get(holder.getAbsoluteAdapterPosition()).getArtista(), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(ctx, DiscoActivity.class);
-                intent.putExtra("artista", mValues.get(holder.getAbsoluteAdapterPosition()).getArtista());
-                intent.putExtra("titulo", mValues.get(holder.getAbsoluteAdapterPosition()).getTitulo());
-                intent.putExtra("portada", mValues.get(holder.getAbsoluteAdapterPosition()).getUrlPortada());
-                intent.putExtra("anyo", mValues.get(holder.getAbsoluteAdapterPosition()).getAnyo());
-                intent.putExtra("numCanciones", mValues.get(holder.getAbsoluteAdapterPosition()).getNum_canciones());
+                intent.putExtra("disco", mValues.get(holder.getAbsoluteAdapterPosition()));
                 ctx.startActivity(intent);
 
             }
