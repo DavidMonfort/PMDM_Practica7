@@ -13,7 +13,8 @@
         android:theme="@style/Theme.6_DashBoard">
         <activity
             android:name=".activities.DiscoActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.galery"/>
         <activity
             android:name=".activities.MusicActivity"
             android:exported="true"
